@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Muli Regular";
+}
+nav
+{
+    z-index: 6;
+    background-color: rgba(2, 2, 2, 0.795);
+}
+
+.logo
+{
+    height: 45px;
+    width: 160px !important;
+}
+
+.navs ul li a
+{
+    color: rgb(249, 247, 247) !important;
+    margin: 0 10px;
+}
+
+.navs .sit
+{
+    width: 50%;
+}
+
+.navbar
+{
+    padding: 20px;
+}
+
+.bg-overlay
+{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.nav-item a i
+{
+    font-size: 22px;
+}
+
+ul li
+{
+    position: relative;
+    transition: 0.4s;
+}
+
+ul li::after
+{
+    content: '';
+    position: absolute;
+    transition: 0.4s;
+    width: 0%;
+    height: 2px;
+    left: 15%;
+}
+
+ul li:hover::after
+{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    background-color: white;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../pexels-tim-gouw-175656.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Muli Regular";
+    background-color: rgba(0, 0, 0, 0.453);
+}
+.avatarImg {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: calc(-80px/2);
+    left: calc(50% - 40px);
+
+}
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.283);
+}
+.formContent {
+    position: absolute;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 510px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255 / 11%);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: rgba(2, 2, 2, 0.700);
+   
+}
+.formContent h2 {
+    margin-top: -30px;
+    /*padding: 0 0 20px;*/
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Muli Bold";
+    color: rgb(202, 228, 249);
+}
+.formContent .E-P {
+    margin-top:0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(202, 228, 249);
+}
+.formContent input {
+    width: 100%;
+    height:36px;
+    /*margin-bottom: 5px;*/
+    font-size: 14px;
+}
+.name{
+    display: flex;
+}
+.lastname{
+    margin-left: 5px;
+}
+ .b-signup {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(81, 127, 167, 0.80);
+    border: 2px double #000;
+    outline: none;
+    margin-top: 10px;
+    
+}
+.b-signup:hover {
+    background:rgba(223, 226, 228, 0.954);
+    color: rgb(55, 67, 77);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border: 2px double rgb(255, 255, 255);
+
+}
