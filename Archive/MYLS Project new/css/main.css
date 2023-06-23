@@ -1,0 +1,452 @@
+nav
+{
+    z-index: 6;
+    background-color: rgba(2, 2, 2, 0.834);
+}
+
+.logo
+{
+    height: 45px;
+    width: 160px !important;
+}
+
+.navs ul li a
+{
+    color: rgb(249, 247, 247) !important;
+    margin: 0 10px;
+}
+
+.navs .sit
+{
+    width: 50%;
+}
+
+.navbar
+{
+    padding: 20px;
+}
+
+.bg-overlay
+{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.nav-item a i
+{
+    font-size: 22px;
+}
+
+ul li
+{
+    position: relative;
+    transition: 0.4s;
+}
+
+ul li::after
+{
+    content: '';
+    position: absolute;
+    transition: 0.4s;
+    width: 0%;
+    height: 2px;
+    left: 15%;
+}
+
+ul li:hover::after
+{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    background-color: white;
+}
+
+.prev, .next
+{
+    z-index: 3;
+}
+
+
+
+nav input
+{
+    width: 300px !important;
+}
+
+nav p
+{
+    font-weight:600;
+    font-family:sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+nav button
+{
+    width: 120px;
+    font-weight: 600 !important;
+}
+
+nav img
+{
+    cursor: pointer;
+}
+
+.offers .main-photo
+{
+    background-image: linear-gradient(to top, rgba(11, 11, 11, 0.235),rgba(7, 7, 7, 0.232) 500px, rgba(14, 14, 14, 0.94)), url('../img/maps.jpg');
+    width: 100%;
+    height: 115vh;
+    background-size: cover;
+}
+
+.offers-view
+{
+    position: relative;
+    top: -8%;
+}
+
+.logo
+{
+    width: 13%;
+}
+
+.offers h2
+{
+    font-family:'Poppins', sans-serif;
+    font-size: 55px;
+    color: white;
+}
+
+.offers p
+{
+    font-family:'Poppins', sans-serif;
+}
+
+.p-offers
+{
+    font-size: large;
+}
+
+.offers .special
+{
+    background-color: #0a55c5;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 1rem 3rem rgba(239, 237, 237, 0.53)!important;
+}
+
+.offers img
+{
+    border-radius: 5px;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.251);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    border-radius: 5%;
+}
+
+.edit
+{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.clear-fix
+{
+    clear:both;
+}
+
+.places p
+{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.places p i
+{
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.places p:last-child i
+{
+    transform: rotate(135deg);
+}
+
+.places p:first-child i
+{
+    transform: rotate(-45deg);
+}
+
+.prices
+{
+    float: left;
+}
+
+.prices p
+{
+    font-family:sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(241, 238, 238, 0.974);
+}
+
+.prices p span
+{
+    text-decoration: line-through;
+}
+
+.footer-img
+{
+    position: absolute;
+    background-image:linear-gradient(to top, rgba(12, 12, 12, 0.661),rgba(2, 2, 2, 0.612) 700px, rgba(14, 14, 14, 0.925)), url('../img/pexels-tim-gouw-175656.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+
+.text-footer
+{
+    color: white;
+    font-family:sans-serif;
+    padding-left: 8%;
+}
+
+.text-footer h2
+{
+    font-size:38px ;
+    font-weight: bold;
+}
+
+.text-edit
+{
+    font-size: 48px !important;
+}
+
+.text-footer p
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.text-footer span
+{
+    background-color: rgb(26, 26, 26);
+    padding: 7px 11px;
+    margin-right: 4%;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.text-footer span:hover
+{
+    color:rgb(18, 18, 18);
+    background-color: white;
+}
+
+.bg-footer
+{
+    background-color: rgb(22, 22, 22);
+}
+
+.details
+{
+    z-index: 5;
+    top: -18%;
+}
+
+.butn
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.817);
+    font-size: 18px;
+    padding: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.butn::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent ;
+    border-right: 10px solid transparent ;
+    top: 42px;
+    right: 47%;
+    position: absolute;
+    transition: all 0.3s step-start;
+}
+
+div .butn:hover
+{
+    background-color: rgba(255, 255, 255, 0.836) ;
+    color: black;
+}
+
+div .butn:hover::after
+{
+    border-top: 10px solid rgba(255, 255, 255, 0.836);
+}
+
+.active-btn
+{
+    background-color: rgba(255, 255, 255, 0.836) ;
+    color: black;
+}
+
+.active-btn::after
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent ;
+    border-right: 10px solid transparent ;
+    border-top: 10px solid rgba(255, 255, 255, 0.836);
+    top: 42px;
+    right: 47%;
+    position: absolute;
+}
+
+.about-table
+{
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+.trip p, .classes p
+{
+    display: inline-block;
+    padding-right: 2%;
+    font-family:sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.inputs span
+{
+    font-size: 23px;
+}
+
+.trip span , .classes span
+{
+    font-size: 20px;
+}
+
+.inputs input
+{
+    width: 70%;
+    display: inline-block;
+}
+
+.inputs-edit input
+{
+    width: 60%;
+}
+
+.line
+{
+    border-top: 2px solid white;
+}
+
+
+span input[type="radio"]
+{
+    cursor: pointer;
+}
+
+.butn-list span input
+{
+    padding: 15px 32px;
+    font-size: 23px;
+    border: none;
+    background-color: rgba(32, 32, 32, 0.877);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butn-visa span
+{
+    background-color:rgb(58, 58, 58) ;
+    padding: 6px 18px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.butn-visa-2 span
+{
+    background-color:rgb(58, 58, 58) ;
+    padding: 6px 18px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.v-none
+{
+    display: none;
+}
+
+.btn-nav
+{
+    width: 100% !important;
+    padding:6px 22px;
+}
+
+@media all and (max-width: 991px){
+
+    .navs ul li a
+    {
+        color: black !important;
+    }
+
+    ul li
+    {
+        position: relative;
+        transition: none;
+    }
+
+    ul li::after
+    {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        transition: none;
+    }
+
+    ul li:hover::after
+    {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        background-color: none;
+        transition: none;
+    }
+
+}

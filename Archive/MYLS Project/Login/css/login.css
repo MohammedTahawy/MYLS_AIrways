@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Muli Regular";
+}
+nav
+{
+    z-index: 6;
+    background-color: rgba(2, 2, 2, 0.795);
+}
+
+.logo
+{
+    height: 45px;
+    width: 160px !important;
+}
+
+.navs ul li a
+{
+    color: rgb(249, 247, 247) !important;
+    margin: 0 10px;
+}
+
+.navs .sit
+{
+    width: 50%;
+}
+
+.navbar
+{
+    padding: 20px;
+}
+
+.bg-overlay
+{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.nav-item a i
+{
+    font-size: 22px;
+}
+
+ul li
+{
+    position: relative;
+    transition: 0.4s;
+}
+
+ul li::after
+{
+    content: '';
+    position: absolute;
+    transition: 0.4s;
+    width: 0%;
+    height: 2px;
+    left: 15%;
+}
+
+ul li:hover::after
+{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    background-color: white;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../pexels-longxiang-qian-1710482.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Muli Regular";
+    background-color: rgba(0, 0, 0, 0.453);
+}
+.avatarImg {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: calc(-80px/2);
+    left: calc(50% - 40px);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.465);
+}
+.formContent {
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgb(255 255 255 / 11%);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: rgba(2, 2, 2, 0.700);
+   
+}
+.formContent h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10PX ;
+    font-family: "Muli Bold";
+    color: rgb(202, 228, 249);
+    font-size: 40PX;
+}
+.formContent .E-P {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(202, 228, 249);
+}
+.formContent input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+ .b-login {
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    background: rgba(81, 127, 167, 0.80);
+    border: 2px double #000;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.5s;
+}
+.b-login:hover {
+    background:rgba(223, 226, 228, 0.954);
+    color: rgb(55, 67, 77);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border: 2px double rgb(255, 255, 255);
+}
+.formContent a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.signup {
+    font-size: 16px;
+    color: white;
+    font-family: 'Muli Regular', sans-serif;
+    text-align: center;
+}
+.signup a {
+    color: rgb(51, 129, 226);
+    text-decoration: none;
+}
+
+.text-footer p
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.text-footer span
+{
+    background-color: rgb(0, 0, 0);
+    padding: 7px 11px;
+    margin-right: 1%;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.text-footer span:hover
+{
+    color:rgb(18, 18, 18);
+    background-color: white;
+}
+
+.bg-footer
+{
+    background-color: rgb(28, 28, 28);
+}
+
+.line
+{
+    border-top: 2px solid white;
+}
+
+.ab-footer
+{
+    position: absolute;
+    top: 94%;
+    width: 100%;
+}
+
+.btn-nav
+{
+    width: 100% !important;
+    padding:6px 22px;
+}

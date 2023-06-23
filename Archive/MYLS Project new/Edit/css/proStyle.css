@@ -1,0 +1,280 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url(../imgs/maxresdefault.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav
+{
+    z-index: 6;
+    background-color: rgba(2, 2, 2, 0.795);
+}
+
+.logo2
+{
+    height: 45px !important;
+    width: 160px !important;
+}
+
+.navs ul li a
+{
+    color: rgb(249, 247, 247) !important;
+    margin: 0 10px;
+}
+
+.navs .sit
+{
+    width: 50%;
+}
+
+.navbar
+{
+    padding: 20px;
+}
+
+.bg-overlay
+{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.nav-item a i
+{
+    font-size: 22px;
+}
+
+ul li
+{
+    position: relative;
+    transition: 0.4s;
+}
+
+ul li::after
+{
+    content: '';
+    position: absolute;
+    transition: 0.4s;
+    width: 0%;
+    height: 2px;
+    left: 15%;
+}
+
+ul li:hover::after
+{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    left: 15%;
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-picture{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translate(10%,-95%);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-page{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.edit-profile{
+    transform: translate(0%, 15%);
+    width: 1200px;
+    height: 400px;
+    background-color: rgba(2, 2, 2, 0.8);
+    border-radius: 80px 10px;
+    box-shadow: -1px 4px 30px 0px rgba(0,0,0,0.7);
+    display:flex;
+    align-items:center ;
+    padding: 20px;
+}
+@media(max-width)
+{
+    .edit-profile{
+        flex-direction: column;
+    }
+}
+.profile-pic{
+    width: 300px;
+    text-align: center;
+    padding: 20px;;
+}
+@media(min-width: 768px){
+    .profile-pic{
+        border-right: 1px solid #eee;
+    }
+}
+.pic{
+    margin-bottom: 10px;
+    border-radius: 80%;
+    width: 100%;
+    height: 100%;
+}
+#file{
+   display: none; 
+}
+#uploadpic{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*info stylling*/
+.box{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid#9b9898;
+    transition: 0.3s;
+    color: white;
+}
+#box4{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid#9b9898;
+}
+#box4 div{
+    width: fit-content;
+
+}
+#box4 button{
+    margin-left: 50%;
+    padding: 5px 10px ;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px double white;
+    transition: all 0.5s;
+}
+#bttn{
+    margin-left: 50%;
+    padding: 5px 10px ;
+    width: 150px;
+    background-color: white;
+    color: rgba(2, 2, 2, 0.8);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px double rgba(2, 2, 2, 0.8);
+    transition: all 0.5s;
+}
+#bttn2 :hover{
+    background-color: red;
+}
+
+.box h4{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0 0;
+}
+#box4 h4{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0 0;
+}
+#box4 div{
+    font-size: 14px;
+    min-width: 250px;
+    padding: 10px 0 0;
+}
+.box div{
+    font-size: 14px;
+    min-width: 250px;
+    padding: 10px 0 0;
+}
+.info input{
+    background-color: white;
+    border: 2px groove transparent;
+    border-radius: 5px;
+}
+
+.text-footer p
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.text-footer span
+{
+    background-color: rgb(0, 0, 0);
+    padding: 7px 11px;
+    margin-right: 1%;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.text-footer span:hover
+{
+    color:rgb(18, 18, 18);
+    background-color: white;
+}
+
+.bg-footer
+{
+    background-color: rgb(28, 28, 28);
+}
+
+.line
+{
+    border-top: 2px solid white;
+}
+
+.ab-footer
+{
+    position: absolute;
+    top: 94%;
+    width: 100%;
+}
+
+.btn-nav
+{
+    width: 100% !important;
+    padding:6px 22px;
+}
+
+.overlay
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.482);
+}
